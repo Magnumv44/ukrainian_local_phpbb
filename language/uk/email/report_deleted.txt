@@ -1,0 +1,7 @@
+Subject: Скаргу видалено - «{POST_SUBJECT}»
+
+Вітаємо, {USERNAME},
+
+Скаргу, яку ви подали на повідомлення «{POST_SUBJECT}» у темі «{TOPIC_TITLE}» на «{SITENAME}», видалив модератор або адміністратор.
+
+{EMAIL_SIG}

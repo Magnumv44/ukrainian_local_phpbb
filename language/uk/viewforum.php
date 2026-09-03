@@ -1,0 +1,74 @@
+<?php
+/**
+*
+* This file is part of the Ukrainian Language Pack
+* for the phpBB Forum Software.
+*
+* @copyright (c) 2026 Magnum <https://magnumblog.space>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* Ukrainian translation by Magnum (magnumblog.space)
+*
+*/
+
+/**
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
+
+// DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+//
+// Placeholders can now contain order information, e.g. instead of
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+// translators to re-order the output of data while ensuring it remains correct
+//
+// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+// equally where a string contains only two placeholders which are used to wrap text
+// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+
+$lang = array_merge($lang, array(
+	'ACTIVE_TOPICS'			=> 'Активні теми',
+	'ANNOUNCEMENTS'			=> 'Оголошення',
+
+	'FORUM_PERMISSIONS'		=> 'Права доступу до форуму',
+
+	'ICON_ANNOUNCEMENT'		=> 'Оголошення',
+	'ICON_STICKY'			=> 'Закріплена',
+
+	'LOGIN_NOTIFY_FORUM'	=> 'Вас було сповіщено про цей форум, будь ласка, увійдіть, щоб переглянути його.',
+
+	'MARK_TOPICS_READ'		=> 'Позначити теми як прочитані',
+
+	'NEW_POSTS_HOT'			=> 'Нові повідомлення [ Популярна ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> 'Нові повідомлення [ Закрита ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> 'Немає нових повідомлень [ Популярна ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> 'Немає нових повідомлень [ Закрита ]',	// Not used anymore
+	'NO_READ_ACCESS'		=> 'Ви не маєте необхідних прав для перегляду або читання тем у цьому форумі.',
+	'NO_FORUMS_IN_CATEGORY'	=> 'У цій категорії немає форумів.',
+	'NO_UNREAD_POSTS_HOT'		=> 'Немає непрочитаних повідомлень [ Популярна ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Немає непрочитаних повідомлень [ Закрита ]',
+
+	'POST_FORUM_LOCKED'		=> 'Форум закрито',
+
+	'TOPICS_MARKED'			=> 'Теми цього форуму позначені як прочитані.',
+
+	'UNREAD_POSTS_HOT'		=> 'Непрочитані повідомлення [ Популярна ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Непрочитані повідомлення [ Закрита ]',
+
+	'VIEW_FORUM'			=> 'Перегляд форуму',
+	'VIEW_FORUM_TOPICS'		=> array(
+		1	=> '%d тема',
+		2	=> '%d теми',
+		3	=> '%d тем',
+	),
+));

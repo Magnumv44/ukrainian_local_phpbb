@@ -1,0 +1,11 @@
+Subject: Тему відхилено - «{TOPIC_TITLE}»
+
+Вітаємо, {USERNAME},
+
+Вашу тему «{TOPIC_TITLE}» на «{SITENAME}» відхилив модератор або адміністратор.
+
+Причина відхилення:
+
+{REASON}
+
+{EMAIL_SIG}
